@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="NEXORA — Organize projetos, acompanhe resultados e transforme sua produtividade."
+  />
+
+  <title>NEXORA — Sua produtividade em outro nível</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">NEXORA<span>.</span></a>
+
+    <button
+      class="menu-toggle"
+      id="menu-toggle"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      aria-controls="nav"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Início</a>
+      <a href="#features">Recursos</a>
+      <a href="#how-it-works">Como funciona</a>
+      <a href="#pricing">Planos</a>
+      <a href="#pricing" class="nav-cta">Começar agora ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <span class="eyebrow">
+          <span class="status-dot"></span>
+          PRODUTIVIDADE REINVENTADA
+        </span>
+
+        <h1>
+          Transforme suas ideias em
+          <span class="gradient-text">grandes resultados.</span>
+        </h1>
+
+        <p class="hero-description">
+          Organize projetos, acompanhe tarefas e mantenha sua equipe alinhada
+          em uma única plataforma. Menos caos, mais resultados.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#pricing" class="button button-primary">
+            Conhecer a plataforma <span>↗</span>
+          </a>
+
+          <a href="#features" class="button button-secondary">
+            Explorar recursos
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="avatar-stack" aria-hidden="true">
+            <span>K</span>
+            <span>M</span>
+            <span>A</span>
+            <span>+</span>
+          </div>
+
+          <p>
+            <strong>Feita para equipes modernas</strong>
+            <small>Projetos, tarefas e resultados em um só lugar.</small>
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-glow"></div>
+
+        <div class="dashboard">
+          <aside class="dashboard-sidebar">
+            <div class="dashboard-logo">N<span>.</span></div>
+
+            <div class="sidebar-item active">▦ <span>Visão geral</span></div>
+            <div class="sidebar-item">◫ <span>Projetos</span></div>
+            <div class="sidebar-item">✓ <span>Tarefas</span></div>
+            <div class="sidebar-item">▤ <span>Relatórios</span></div>
+
+            <div class="sidebar-profile">
+              <div class="profile-avatar">KS</div>
+              <div>
+                <strong>Seu espaço</strong>
+                <small>Plano demonstrativo</small>
+              </div>
+            </div>
+          </aside>
+
+          <div class="dashboard-main">
+            <div class="dashboard-top">
+              <div>
+                <small>SEGUNDA-FEIRA, 20 DE OUTUBRO</small>
+                <h3>Visão geral</h3>
+              </div>
+              <span class="notification">●</span>
+            </div>
+
+            <div class="welcome-card">
+              <div>
+                <span>SEU PAINEL DE CONTROLE</span>
+                <h3>Suas ideias, em movimento.</h3>
+                <p>Organize seu dia e acompanhe seu progresso.</p>
+              </div>
+              <div class="welcome-symbol">✳</div>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat-card">
+                <small>Projetos ativos</small>
+                <strong>08</strong>
+                <span class="stat-positive">↗ Em andamento</span>
+              </div>
+
+              <div class="stat-card">
+                <small>Tarefas concluídas</small>
+                <strong>24</strong>
+                <span class="stat-positive">↗ Bom progresso</span>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-heading">
+                <strong>Progresso semanal</strong>
+                <span>Esta semana</span>
+              </div>
+
+              <div class="chart">
+                <div class="chart-bar" style="--height: 42%"></div>
+                <div class="chart-bar" style="--height: 65%"></div>
+                <div class="chart-bar" style="--height: 52%"></div>
+                <div class="chart-bar highlight" style="--height: 88%"></div>
+                <div class="chart-bar" style="--height: 70%"></div>
+                <div class="chart-bar" style="--height: 95%"></div>
+                <div class="chart-bar" style="--height: 60%"></div>
+              </div>
+
+              <div class="chart-labels">
+                <span>SEG</span>
+                <span>TER</span>
+                <span>QUA</span>
+                <span>QUI</span>
+                <span>SEX</span>
+                <span>SÁB</span>
+                <span>DOM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card floating-top">
+          <span class="floating-icon">✓</span>
+          <div>
+            <strong>Tarefa concluída!</strong>
+            <small>Seu progresso está avançando</small>
+          </div>
+        </div>
+
+        <div class="floating-card floating-bottom">
+          <span class="floating-number">+28%</span>
+          <small>Exemplo de evolução</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="section-heading reveal">
+        <span class="eyebrow">RECURSOS</span>
+        <h2>Tudo o que você precisa para <span>evoluir.</span></h2>
+        <p>Ferramentas pensadas para deixar seu trabalho mais organizado e eficiente.</p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon">▦</div>
+          <h3>Projetos organizados</h3>
+          <p>Reúna suas tarefas, prazos e informações em espaços fáceis de acompanhar.</p>
+          <span class="feature-number">01 / ORGANIZAÇÃO</span>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon">↗</div>
+          <h3>Acompanhe resultados</h3>
+          <p>Visualize o andamento do trabalho e identifique o que merece atenção.</p>
+          <span class="feature-number">02 / DESEMPENHO</span>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon">✳</div>
+          <h3>Fluxo simplificado</h3>
+          <p>Centralize informações e reduza a troca desnecessária entre ferramentas.</p>
+          <span class="feature-number">03 / PRODUTIVIDADE</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow section" id="how-it-works">
+      <div class="workflow-content reveal">
+        <span class="eyebrow">SIMPLES ASSIM</span>
+        <h2>Do planejamento à <span>execução.</span></h2>
+        <p>
+          Um fluxo claro ajuda você a transformar objetivos em ações
+          concretas, acompanhando cada etapa do caminho.
+        </p>
+
+        <a href="#pricing" class="button button-primary">
+          Descobrir possibilidades <span>↗</span>
+        </a>
+      </div>
+
+      <div class="workflow-steps">
+        <article class="workflow-step reveal">
+          <span class="step-number">01</span>
+          <div>
+            <h3>Defina seus objetivos</h3>
+            <p>Organize suas prioridades e estabeleça o que precisa ser feito.</p>
+          </div>
+        </article>
+
+        <article class="workflow-step reveal">
+          <span class="step-number">02</span>
+          <div>
+            <h3>Organize suas tarefas</h3>
+            <p>Divida projetos em etapas e mantenha tudo visível.</p>
+          </div>
+        </article>
+
+        <article class="workflow-step reveal">
+          <span class="step-number">03</span>
+          <div>
+            <h3>Acompanhe sua evolução</h3>
+            <p>Observe seu progresso e ajuste sua estratégia quando necessário.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="pricing-card reveal">
+        <span class="eyebrow">COMECE SUA JORNADA</span>
+        <h2>Seu próximo nível começa <span>agora.</span></h2>
+        <p>
+          Conheça uma nova forma de organizar seu trabalho e transformar
+          suas ideias em projetos.
+        </p>
+
+        <div class="pricing-placeholder">
+          <span>PLATAFORMA DEMONSTRATIVA</span>
+          <strong>Projeto conceitual</strong>
+          <small>Planos, valores e funcionalidades são ilustrativos.</small>
+        </div>
+
+        <a href="#home" class="button button-primary">
+          Voltar ao início <span>↑</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">NEXORA<span>.</span></a>
+    <p>Projeto conceitual desenvolvido para portfólio.</p>
+    <span>© <span id="year"></span> NEXORA. Todos os direitos reservados.</span>
+  </footer>
+</body>
+</html>
